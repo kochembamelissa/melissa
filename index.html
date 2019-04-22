@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:  #00e68a;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: #009900;
+  }
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #009900;
+  }
+.flex-container > div {
+  background-color: #00CC00;
+  width: 600px;
+  margin: 10px;
+  text-align:center;
+  line-height: 75px;
+  font-size: 30px;
+}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {margin: 10px;}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00CC00;
+}
+ul.topnav li {float: left;}
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {background-color: #009900;}
+ul.topnav li a.active {background-color:  #00e68a;}
+ul.topnav li.right {float: right;}
+@media screen and (max-width: 500px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #00CC00;
+  float: left;
+  width: 180px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+</style>
+<title>Font Awesome Icons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+<h1>Заголовок <i class="fas fa-cloud" style="font-size:36px;"></i></h1>
+<ul class="topnav">
+  <li><a class="active" href="#home">Home</a></li>
+ <li><a href="#back">Back</a></li>
+  <li><a href="#forward">Forward</a></li>
+  <li><a href="#photost">Photos</a></li>
+  <li class="right"><a href="#do out">Do out</a></li>
+</ul>
+<div class="flex-container">
+  <div>Welkome<h5> якийсь текст. якийсь текст. якийсь текст. якийсь текст. якийсь текст. якийсь текст. якийсь текст.</h5></div>
+  <div>Photos<h5><div class="gallery">
+  <a target="_blank" href="laptop.jpg">
+    <img src="laptop.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc"> Laptop </div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="tablet.jpg">
+    <img src="tablet.jpg" alt="Forest" width="600" height="400">
+  </a>
+   <div class="desc"> Tablet </div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="phone.jpg">
+    <img src="phone.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+   <div class="desc"> Phone </div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="watch2.jpg">
+    <img src="watch2.jpg" alt="Mountains" width="600" height="400">
+  </a>
+   <div class="desc"> Watch </div>
+</div></h5></div>
+</div>
+<p>01.04.19</p>
+</body>
+</html>
